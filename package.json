@@ -1,5 +1,6 @@
 {
   "name": "quirky-coasters",
+  "homepage": "https://jamestthompson3.github.io/richmond-qc/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
