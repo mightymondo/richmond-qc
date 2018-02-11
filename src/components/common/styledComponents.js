@@ -94,7 +94,7 @@ export const MobileTrigger = styled.i.attrs({ className:"material-icons" })`
 `
 
 export const WelcomeImg = styled.img`
-  max-width: 1200px;
+  max-width: 1000px;
   max-height: 856px;
   justify-self: center;
   border-radius: 3px;

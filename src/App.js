@@ -3,7 +3,7 @@ import { injectGlobal } from 'styled-components'
 
 import { WelcomeWrapper, PageWrapper, NavBar, NavImg, NavContents, WelcomeImg, MobileTrigger } from './components/common/styledComponents'
 import welcome from './img/welcomeImg.jpg'
-
+import nav from './img/navp.png'
 injectGlobal`
   body {
     margin: 0;
@@ -28,7 +28,7 @@ class App extends Component {
       <PageWrapper>
         <WelcomeWrapper>
           <NavBar>
-            <NavImg src="https://7izuga-dm2305.files.1drv.com/y4meApLTXoCRkcbIPk_fisdOVrJq73p_-mYSEOXL2wnPWEDtAYoldyUVPZLqbaig4XamnlL9z5W4oAScE0Rdv4Q5_1w7psiep-qYLeROqeDbt3FTvMutRETvglONDzv1YDK0Smqrs8zz9yEeV_UVHOaMETgo0XUNO1YFR1nv9UuNx7-ev62AXg_jB7Z0s5HgawG0jbe5BnNVtpQA-GTB8sJ9g?width=300&height=232&cropmode=none" />
+            <NavImg src={nav} />
             <NavContents open={open}>
               <a>about</a>
               //
