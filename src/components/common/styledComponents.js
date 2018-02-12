@@ -101,3 +101,19 @@ export const WelcomeImg = styled.img`
   box-shadow: 0 0 20px 1px black;
   width: 90%;
 `
+export const Footer = styled.footer`
+  width: 100%;
+  display: flex;
+  font-weight: 400;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  background: #000;
+  a {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  ${media.tablet`
+    justify-content: space-between;
+  `}
+`

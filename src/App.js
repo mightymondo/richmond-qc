@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { injectGlobal } from 'styled-components'
 
-import { WelcomeWrapper, PageWrapper, NavBar, NavImg, NavContents, WelcomeImg, MobileTrigger } from './components/common/styledComponents'
+import { WelcomeWrapper, PageWrapper, NavBar, NavImg, NavContents, WelcomeImg, MobileTrigger, Footer } from './components/common/styledComponents'
 import welcome from './img/welcomeImg.jpg'
 import nav from './img/navp.png'
 injectGlobal`
@@ -32,15 +32,24 @@ class App extends Component {
             <NavContents open={open}>
               <a>about</a>
               //
-              <a>contact</a>
+              <a href="mailto:contact@quirkycoasters.com">contact</a>
               //
               <a>store</a>
             </NavContents>
             <MobileTrigger onClick={this.toggleMenu}>dehaze</MobileTrigger>
           </NavBar>
-         <h1>Welcome to Quirky Coasters</h1>
+         <h1>- Welcome to Quirky Coasters -</h1>
           <WelcomeImg src={welcome} />
         </WelcomeWrapper>
+        <Footer>
+          <NavContents open={open}>
+           <f1> about</f1>
+            //
+           <f1> contact  </f1>
+            //
+           <f1> store</f1>
+            </NavContents>
+          </Footer>
       </PageWrapper>
     )
   }
