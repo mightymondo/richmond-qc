@@ -42,13 +42,13 @@ class App extends Component {
           <WelcomeImg src={welcome} />
         </WelcomeWrapper>
         <Footer>
-          <NavContents open={open}>
+          
            <f1> about</f1>
             //
            <f1> contact  </f1>
             //
            <f1> store</f1>
-            </NavContents>
+           
           </Footer>
       </PageWrapper>
     )
