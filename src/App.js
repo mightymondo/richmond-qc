@@ -32,9 +32,11 @@ class App extends Component {
             <NavContents open={open}>
               <a>about</a>
               //
-              <a href="mailto:contact@quirkycoasters.com">contact</a>
+              <a> gallery </a>
               //
-              <a>store</a>
+              <a href= "store.html ">store</a>
+              //          
+              <a href="mailto:contact@quirkycoasters.com">contact</a>
             </NavContents>
             <MobileTrigger onClick={this.toggleMenu}>dehaze</MobileTrigger>
           </NavBar>
@@ -43,11 +45,11 @@ class App extends Component {
         </WelcomeWrapper>
         <Footer>
           
-           <f1> about</f1>
+           <a href="https://rstpottery.com"> RST Pottery</a>
             //
-           <f1> contact  </f1>
+           <p> &copy; 2018 R. Thornley  </p>
             //
-           <f1> store</f1>
+           <a href="mailto:contact@quirkycoasters.com"> contact</a>
            
           </Footer>
       </PageWrapper>
