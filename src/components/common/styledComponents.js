@@ -94,12 +94,13 @@ export const MobileTrigger = styled.i.attrs({ className:"material-icons" })`
 `
 
 export const WelcomeImg = styled.img`
-  max-width: 1000px;
-  max-height: 856px;
+  max-width:90%;
+  max-height: 70%;
+ 
   justify-self: center;
   border-radius: 3px;
   box-shadow: 0 0 20px 1px black;
-  width: 90%;
+  
 `
 export const Footer = styled.footer`
   width: 100%;
